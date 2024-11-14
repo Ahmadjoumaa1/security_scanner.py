@@ -14,6 +14,7 @@ Directory Traversal Detection: Attempts to access sensitive files through path t
 
 Customizable Parameters: Includes options for URL target, scan type, request delay, and more.
 
+* It is possible to improve and add new additions to the code, such as new payloads for all xss, sql, and dir scanning operations, and put in the final report on how to fix the vulnerability.
 
 Requirements
 ==
