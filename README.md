@@ -67,7 +67,7 @@ Example Commands:
 *  python security_scanner.py -u "http://localhost:3000/#/search?q={fuzz}" --scan_type xss --delay 1
 ------
 * Directory Traversal Test:
-* python security_scanner.py -u "http://localhost:3000/#/search?q={fuzz}" --scan_type dir_traversal --delay 1
+* python security_scanner.py -u "http://localhost:3000/{fuzz}" --scan_type dir_traversal --delay 1
   *****************************************************************************
 Output
 ==
