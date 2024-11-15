@@ -22,14 +22,15 @@ Python 3.9+
 Required Libraries: Listed in requirements.txt
 
 pip install -r requirements.txt
-
+*****************************************************
 Make sure you have Firefox
-
+*****************************************************
 Make sure you download geckodriver and specify the correct path for it in the script.
 
 (path geckodriver)
 gecko_path = "/usr/local/bin/geckodriver" | In this script, this is the geckodriver path
-Download geckodriver : https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-linux64.tar.gz
+*Download geckodriver :
+*https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-linux64.tar.gz
 
 
 Setting Up the OWASP Juice Shop for Testing
