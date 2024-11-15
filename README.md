@@ -32,7 +32,8 @@ gecko_path = "/usr/local/bin/geckodriver" | In this script, this is the geckodri
 *****************************************************
 *Download geckodriver :
 *https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-linux64.tar.gz
-
+*******************
+After downloading geckodriver, move it to the same path shown in the script
 *****************************************************
 Setting Up the OWASP Juice Shop for Testing
 OWASP Juice Shop is a vulnerable web application designed for testing security tools. This guide shows how to set up Juice Shop in a local environment, 
