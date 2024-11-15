@@ -29,6 +29,7 @@ Make sure you download geckodriver and specify the correct path for it in the sc
 
 (path geckodriver)
 gecko_path = "/usr/local/bin/geckodriver" | In this script, this is the geckodriver path
+*****************************************************
 *Download geckodriver :
 *https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-linux64.tar.gz
 
