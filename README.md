@@ -88,7 +88,10 @@ Detected vulnerabilities are reported with information on the payload used and t
 
 To save the results in a JSON file (optional), redirect the output:
 
-python security_scanner.py -u "http://localhost:3000/{fuzz}" --scan_type sql --delay 1 > report.json
+python security_scanner.py -u "http://localhost:3000//#/search?q={fuzz}" --scan_type sql --delay 1 --output report_sql.json
+python security_scanner.py -u "http://localhost:3000/#/search?q={fuzz}" --scan_type xss --delay 1 --output report_xss.json
+python security_scanner.py -u "http://localhost:3000/{fuzz}" --scan_type dir_traversal --delay 1 --output report_dir_traversal.json
+
 
 Example Output
 ===
